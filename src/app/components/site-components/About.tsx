@@ -1,0 +1,33 @@
+import React from 'react'
+import { Clock, MapPin, Users } from 'lucide-react'
+
+const About = () => {
+  return (
+    <section className="mt-12 sm:mt-16 lg:mt-0 py-16 px-4 w-full bg-primary/5">
+      <div className="mx-auto flex flex-col items-center gap-10">
+        <h1 className="text-2xl lg:text-3xl font-bold text-black text-center">
+          About Get Into Tech Summer Camp
+        </h1>
+        <p className="text-black text-center max-w-3xl text-sm">
+        GetIntoTech Summer Camp is an immersive program designed to introduce young learners to coding, ai, and digital skills in a fun and interactive way. Through hands-on workshops, expert mentorship, and real-world tech challenges, participants develop problem-solving abilities, creativity, and confidence in using technology. The camp fosters an inclusive learning      environment, ensuring that students from diverse backgrounds gain essential digital literacy skills to prepare them for the future of work and innovation.
+        </p>
+        <div className="flex flex-col gap-2 items-start justify-start">
+          <div className="flex items-center gap-2">
+            <Clock className="w-4 h-4 text-primary" />
+            <p className="text-black text-sm">12 AUGUST -23TH JUNE 2025</p>
+          </div>
+          <div className="flex items-center gap-2">
+            <MapPin className="w-4 h-4 text-primary" />
+            <p className="text-black text-sm">KIMISAGARA YOUTH CENTER</p>
+          </div>
+          <div className="flex items-center gap-2 ">
+            <Users className="w-4 h-4 text-primary" />
+            <p className="text-black text-sm">SECONDARY SCHOOL STUDENTS (FROM S1-S6) </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+export default About
