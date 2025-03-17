@@ -25,7 +25,7 @@ const Hero = () => {
           </Link>
         </div>
         <div className="flex aspect-square lg:aspect-auto lg:h-[36rem] relative">
-          <div className="w-3/5 h-[80%] rounded-xl overflow-clip border-4 border-white z-30">
+          <div className="w-3/5 h-[80%] rounded-xl overflow-clip border-6 border-white z-30">
             <Image
               src="/images/heromain.jpg"
               alt="Students working on a project"

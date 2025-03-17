@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button'
 
 const Navbar = () => {
   return (
-    <div className="w-full flex justify-around items-center py-6 px-4 bg-white">
+    <div className="w-full flex justify-around items-center py-6 px-4">
       <Image src="/images/withintech.png" alt="logo" width={80} height={80} />
       <div className="flex gap-4 ">
         <a href="#" className="text-gray-600 hover:text-gray-800">Home</a>

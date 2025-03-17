@@ -7,7 +7,7 @@ const Statistics = () => {
     <section className="mt-14 sm:mt-16 lg:mt-0 py-4 lg:py-16">
       <div className="mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 grid lg:grid-cols-2 lg:items-center gap-10 ">
         <div className="flex aspect-square lg:aspect-auto lg:h-[36rem] relative">
-          <div className="w-3/5 h-[60%] rounded-xl overflow-clip border-4 border-white z-30">
+          <div className="w-3/5 h-[60%] rounded-xl overflow-clip border-6 border-white z-30">
             <Image
               src="/images/heromain.jpg"
               alt="Students working on a project"
@@ -32,7 +32,7 @@ const Statistics = () => {
           </h1>
           <p className=" flex text-black  md:font-normal max-w-md">
             Join the other in technology lorem ipsum is the text that replace
-            other
+            other.35 Students trained in the first camp. You can join the number as well.
           </p>
           <div className="flex gap-4 items-center h-12">
             <div className=" text-sm flex flex-col gap-2 items-start w-42 p-4 bg-orange-300/50 rounded-md shadow-md">

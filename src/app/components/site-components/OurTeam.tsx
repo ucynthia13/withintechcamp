@@ -12,7 +12,7 @@ const OurTeam = () => {
             className="relative flex items-end border w-60 h-[300px] bg-cover bg-center bg-no-repeat rounded-md"
             style={{ backgroundImage: "url('/images/heromain.jpg')" }}
           >
-            <div className="relative bg-card p-4 rounded-md text-center mx-auto w-50 z-10 mb-5">
+            <div className="relative bg-white p-4 rounded-md text-center mx-auto w-50 z-10 mb-5">
               <p className="text-sm font-semibold text-primary">
                 Aline Niyomungeli
               </p>
@@ -25,7 +25,7 @@ const OurTeam = () => {
             className="relative flex items-end border w-60 h-[300px] bg-cover bg-center bg-no-repeat rounded-md"
             style={{ backgroundImage: "url('/images/heromain.jpg')" }}
           >
-            <div className="relative bg-card p-4 rounded-md text-center mx-auto w-50 z-10 mb-5">
+            <div className="relative bg-white p-4 rounded-md text-center mx-auto w-50 z-10 mb-5">
               <p className="text-sm font-semibold text-primary">
                 Aline Niyomungeli
               </p>
@@ -38,7 +38,7 @@ const OurTeam = () => {
             className="relative flex items-end border w-60 h-[300px] bg-cover bg-center bg-no-repeat rounded-md"
             style={{ backgroundImage: "url('/images/heromain.jpg')" }}
           >
-            <div className="relative bg-card p-4 rounded-md text-center mx-auto w-50 z-10 mb-5">
+            <div className="relative bg-white p-4 rounded-md text-center mx-auto w-50 z-10 mb-5">
               <p className="text-sm font-semibold text-primary">
                 Aline Niyomungeli
               </p>
@@ -51,7 +51,7 @@ const OurTeam = () => {
             className="relative flex items-end border w-60 h-[300px] bg-cover bg-center bg-no-repeat rounded-md"
             style={{ backgroundImage: "url('/images/heromain.jpg')" }}
           >
-            <div className="relative bg-card p-4 rounded-md text-center mx-auto w-50 z-10 mb-5">
+            <div className="relative bg-white p-4 rounded-md text-center mx-auto w-50 z-10 mb-5">
               <p className="text-sm font-semibold text-primary">
                 Aline Niyomungeli
               </p>
@@ -64,7 +64,7 @@ const OurTeam = () => {
             className="relative flex items-end border w-60 h-[300px] bg-cover bg-center bg-no-repeat rounded-md"
             style={{ backgroundImage: "url('/images/heromain.jpg')" }}
           >
-            <div className="relative bg-card p-4 rounded-md text-center mx-auto w-50 z-10 mb-5">
+            <div className="relative bg-white p-4 rounded-md text-center mx-auto w-50 z-10 mb-5">
               <p className="text-sm font-semibold text-primary">
                 Aline Niyomungeli
               </p>
@@ -77,7 +77,7 @@ const OurTeam = () => {
             className="relative flex items-end border w-60 h-[300px] bg-cover bg-center bg-no-repeat rounded-md"
             style={{ backgroundImage: "url('/images/heromain.jpg')" }}
           >
-            <div className="relative bg-card p-4 rounded-md text-center mx-auto w-50 z-10 mb-5">
+            <div className="relative bg-white p-4 rounded-md text-center mx-auto w-50 z-10 mb-5">
               <p className="text-sm font-semibold text-primary">
                 Aline Niyomungeli
               </p>
