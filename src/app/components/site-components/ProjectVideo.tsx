@@ -15,7 +15,7 @@ const ProjectVideo = () => {
             className="absolute inset-0 bg-primary/5 flex items-center justify-center cursor-pointer z-10"
             onClick={() => setIsPlaying(true)}
           >
-            <Play size={60} className="text-primary bg-white p-3 rounded-full opacity-90 hover:scale-110 transition-transform" />
+            <Play size={50} className="text-primary bg-white p-4 rounded-full opacity-90 hover:scale-110 transition-transform" />
           </div>
         )}
         {isPlaying ? (

@@ -36,21 +36,21 @@ const FAQs = () => {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-4">
-            <AccordionTrigger>What is this camp about?</AccordionTrigger>
+            <AccordionTrigger>When does the camp start and end?</AccordionTrigger>
             <AccordionContent>
               Yes. Its animated by default, but you can disable it if you
               prefer.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-5">
-            <AccordionTrigger>What is this camp about?</AccordionTrigger>
+            <AccordionTrigger>Is There a deadline for Enrollment?</AccordionTrigger>
             <AccordionContent>
               Yes. Its animated by default, but you can disable it if you
               prefer.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-6">
-            <AccordionTrigger>What is this camp about?</AccordionTrigger>
+            <AccordionTrigger>How much does the course cost?</AccordionTrigger>
             <AccordionContent>
               Yes. Its animated by default, but you can disable it if you
               prefer.
