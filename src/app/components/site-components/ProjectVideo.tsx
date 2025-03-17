@@ -8,11 +8,11 @@ const ProjectVideo = () => {
   const videoId = "dQw4w9WgXcQ";
 
   return (
-    <section className="relative w-full h-[55vh] border">
+    <section className="relative w-full h-[60vh] border">
       <div className="absolute inset-0 w-full h-full">
         {!isPlaying && (
           <div
-            className="absolute inset-0 bg-primary/10 flex items-center justify-center cursor-pointer z-10"
+            className="absolute inset-0 bg-primary/5 flex items-center justify-center cursor-pointer z-10"
             onClick={() => setIsPlaying(true)}
           >
             <Play size={60} className="text-primary bg-white p-3 rounded-full opacity-90 hover:scale-110 transition-transform" />

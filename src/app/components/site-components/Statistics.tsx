@@ -44,7 +44,7 @@ const Statistics = () => {
               <p >Camp Duration</p>
             </div>
           </div>
-          <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 w-full">
+          <div className="flex flex-row items-center lg:justify-start gap-2 lg:gap-4 w-full">
             <Link
               href="#"
               className="px-4 lg:px-6 items-center h-11 rounded-3xl bg-primary text-white duration-300 ease-linear flex justify-center w-full sm:w-auto text-sm"

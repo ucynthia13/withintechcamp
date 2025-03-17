@@ -4,7 +4,7 @@ const OurTeam = () => {
   return (
     <section className="mt-14 sm:mt-16 lg:mt-0 py-4 lg:py-16">
       <div className="mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 lg:items-center">
-        <h1 className="text-xl lg:text-3xl font-bold text-primary text-center pb-8">
+        <h1 className="text-xl lg:text-3xl font-bold text-primary text-center pb-8 ">
           Learn More About Your Trainer
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">

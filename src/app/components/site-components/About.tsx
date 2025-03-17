@@ -3,9 +3,9 @@ import { Clock, MapPin, Users } from 'lucide-react'
 
 const About = () => {
   return (
-    <section className="mt-12 sm:mt-16 lg:mt-0 py-16 px-4 w-full bg-primary/5">
+    <section className=" py-16 px-4 w-full bg-primary/5">
       <div className="mx-auto flex flex-col items-center gap-10">
-        <h1 className="text-2xl lg:text-3xl font-bold text-black text-center">
+        <h1 className="text-xl lg:text-3xl font-bold text-black text-center">
           About Get Into Tech Summer Camp
         </h1>
         <p className="text-black text-center max-w-3xl text-sm">
