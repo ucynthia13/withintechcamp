@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section className=" py-16 px-4 w-full bg-primary/5">
       <div className="mx-auto flex flex-col items-center gap-10">
-        <h1 className="text-xl lg:text-3xl font-bold text-black text-center">
+        <h1 className="text-xl md:text-2xl lg:text-4xl font-bold text-black text-center max-w-lg">
           About Get Into Tech Summer Camp
         </h1>
         <p className="text-black text-center max-w-3xl text-sm">
@@ -13,15 +13,15 @@ const About = () => {
         </p>
         <div className="flex flex-col gap-2 items-start justify-start">
           <div className="flex items-center gap-2">
-            <Clock className="w-4 h-4 text-primary" />
+            <Clock className="w-5 h-5 text-primary" />
             <p className="text-black text-sm">12 August -23th June 2025</p>
           </div>
           <div className="flex items-center gap-2">
-            <MapPin className="w-4 h-4 text-primary" />
+            <MapPin className="w-5 h-5 text-primary" />
             <p className="text-black text-sm">Kimisagara Youth Center</p>
           </div>
           <div className="flex items-center gap-2 ">
-            <Users className="w-4 h-4 text-primary" />
+            <Users className="w-5 h-5 text-primary" />
             <p className="text-black text-sm">Secondary School Students (From S1-S6) </p>
           </div>
         </div>

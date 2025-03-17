@@ -27,19 +27,19 @@ const Statistics = () => {
           </div>
         </div>
         <div className="flex flex-col space-y-8 sm:space-y-10 lg:text-left max-w-2xl md:max-w-3xl mx-auto">
-          <h1 className="text-xl lg:text-3xl font-bold text-primary">
+          <h1 className="text-xl lg:text-4xl font-bold text-primary max-w-xs">
             Empower Your Tech Journey
           </h1>
-          <p className=" flex text-black  md:font-normal max-w-md">
+          <p className=" flex text-black text-[15px]  md:font-normal max-w-md">
             Join the other in technology lorem ipsum is the text that replace
             other.35 Students trained in the first camp. You can join the number as well.
           </p>
           <div className="flex gap-4 items-center h-12">
-            <div className=" text-sm flex flex-col gap-2 items-start w-42 p-4 bg-orange-300/50 rounded-md shadow-md">
+            <div className=" text-sm flex flex-col gap-2 items-start w-42 p-4 bg-orange-300/30 rounded-md">
               <p className=" font-semibold">100</p>
               <p >Targeted Students</p>
             </div>
-            <div className= " text-sm flex flex-col gap-2 items-start w-42 p-4 bg-orange-300/50 rounded-md shadow-md">
+            <div className= " text-sm flex flex-col gap-2 items-start w-42 p-4 bg-orange-300/30 rounded-md">
               <p className="font-semibold">2 Weeeks</p>
               <p >Camp Duration</p>
             </div>

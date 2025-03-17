@@ -5,7 +5,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="mt-14 sm:mt-16 lg:mt-0 py-4 lg:py-14">
+    <section className="py-4 lg:py-14">
       <div className="mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 grid lg:grid-cols-2 lg:items-center gap-10">
         <div className="flex flex-col space-y-8 sm:space-y-10 lg:text-left max-w-2xl md:max-w-3xl mx-auto">
           <Badge variant="default" className="bg-black h-9 rounded-full px-8">
@@ -14,7 +14,7 @@ const Hero = () => {
           <h1 className="text-4xl lg:text-6xl font-bold text-primary">
             Get Into Tech Summer Camp Cohort 2
           </h1>
-          <p className=" flex text-black  md:font-normal max-w-md">
+          <p className=" flex text-black  text-lg md:font-normal max-w-lg">
             GetIntoTech Summer Camp empowers young learners with coding,
             robotics, and digital skills through hands-on workshops, mentorship,
             and innovation challenges.
