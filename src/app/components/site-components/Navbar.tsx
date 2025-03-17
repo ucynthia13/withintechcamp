@@ -23,7 +23,7 @@ const Navbar = () => {
       }`}
     >
       <Image src="/images/withintech.png" alt="logo" width={80} height={80} />
-      <div className="flex gap-4">
+      <div className="flex gap-4 text-[15px]">
         <a href="#" className="text-black">Home</a>
         <a href="#" className="text-black">Donate</a>
       </div>

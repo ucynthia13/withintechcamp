@@ -12,7 +12,7 @@ const Hero = () => {
           <Badge variant="default" className="bg-black h-9 rounded-full px-8">
             # Cohort 2
           </Badge>
-          <h1 className="text-4xl lg:text-6xl font-bold text-primary">
+          <h1 className="text-4xl lg:text-7xl font-bold text-primary">
             Get Into Tech Summer Camp Cohort 2
           </h1>
           <p className=" flex text-black text-[16px] md:font-normal max-w-lg">
@@ -27,26 +27,37 @@ const Hero = () => {
             Apply Now
           </Link>
         </div>
-        <div className="flex aspect-square lg:aspect-auto lg:h-[36rem] relative">
-          <div className="w-3/5 h-[80%] rounded-xl overflow-clip border-6 border-white z-30">
-            <Image
-              src="/images/heromain.jpg"
-              alt="Students working on a project"
-              width={1200}
-              height={1200}
-              className="w-full h-full object-cover z-30"
-            />
-          </div>
-          <div className="absolute right-0 bottom-0 h-[calc(100%-50px)] w-4/5 rounded-xl overflow-clip z-10">
-            <Image
-              src="/images/heromain.jpg"
-              alt="Students Working on a"
-              height={1300}
-              width={1300}
-              className="z-10 w-full h-full object-cover"
-            />
-          </div>
-        </div>
+        <div className="relative flex justify-center items-center p-6">
+      <div className="relative w-80 md:w-96 lg:w-[400px] h-[62vh]">
+        <Image
+          src="/images/heromain.jpg" 
+          alt="Main Image"
+          width={400}
+          height={400}
+          className="rounded-xl w-full h-full shadow-lg object-cover"
+        />
+      </div>
+
+      <div className="absolute top-2 left-2 w-16 h-16 md:w-20 md:h-20 border-4 border-white rounded-full shadow-md overflow-hidden">
+        <Image
+          src="/images/heromain.jpg" 
+          alt="Top Left Image"
+          width={80}
+          height={80}
+          className="object-cover w-full h-full"
+        />
+      </div>
+
+      <div className="absolute bottom-2 right-2 w-16 h-16 md:w-20 md:h-20 border-4 border-white rounded-full shadow-md overflow-hidden">
+        <Image
+          src="/images/hero.jpg" 
+          alt="Bottom Right Image"
+          width={80}
+          height={80}
+          className="object-cover w-full h-full"
+        />
+      </div>
+    </div>
         <div className="absolute top-0 right-0 z-0 opacity-40">
          <Svg />
         </div>
