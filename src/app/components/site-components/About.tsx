@@ -14,15 +14,15 @@ const About = () => {
         <div className="flex flex-col gap-2 items-start justify-start">
           <div className="flex items-center gap-2">
             <Clock className="w-4 h-4 text-primary" />
-            <p className="text-black text-sm">12 AUGUST -23TH JUNE 2025</p>
+            <p className="text-black text-sm">12 August -23th June 2025</p>
           </div>
           <div className="flex items-center gap-2">
             <MapPin className="w-4 h-4 text-primary" />
-            <p className="text-black text-sm">KIMISAGARA YOUTH CENTER</p>
+            <p className="text-black text-sm">Kimisagara Youth Center</p>
           </div>
           <div className="flex items-center gap-2 ">
             <Users className="w-4 h-4 text-primary" />
-            <p className="text-black text-sm">SECONDARY SCHOOL STUDENTS (FROM S1-S6) </p>
+            <p className="text-black text-sm">Secondary School Students (From S1-S6) </p>
           </div>
         </div>
       </div>

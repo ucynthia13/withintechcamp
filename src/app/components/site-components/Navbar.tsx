@@ -10,7 +10,7 @@ const Navbar = () => {
         <a href="#" className="text-gray-600 hover:text-gray-800">Home</a>
         <a href="#" className="text-gray-600 hover:text-gray-800">Donate</a>
       </div>
-      <Button variant="default" className="h-12 rounded-full px-8">Apply</Button>
+      <Button variant="default" className="h-11 rounded-full px-8">Apply</Button>
     </div>
   )
 }

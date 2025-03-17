@@ -8,7 +8,7 @@ const Hero = () => {
     <section className="mt-14 sm:mt-16 lg:mt-0 py-4 lg:py-16">
       <div className="mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 grid lg:grid-cols-2 lg:items-center gap-10">
         <div className="flex flex-col space-y-8 sm:space-y-10 lg:text-left max-w-2xl md:max-w-3xl mx-auto">
-          <Badge variant="default" className="bg-black h-11 rounded-full px-8">
+          <Badge variant="default" className="bg-black h-9 rounded-full px-8">
             # Cohort 2
           </Badge>
           <h1 className="text-4xl lg:text-6xl font-bold text-primary">
@@ -25,7 +25,7 @@ const Hero = () => {
           </Link>
         </div>
         <div className="flex aspect-square lg:aspect-auto lg:h-[36rem] relative">
-          <div className="w-3/5 h-[80%] rounded-xl overflow-clip border-8 border-white z-30">
+          <div className="w-3/5 h-[80%] rounded-xl overflow-clip border-4 border-white z-30">
             <Image
               src="/images/heromain.jpg"
               alt="Students working on a project"
