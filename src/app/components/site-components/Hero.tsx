@@ -22,7 +22,7 @@ const Hero = () => {
           </p>
           <Link
             href="#"
-            className="px-6 items-center h-12 rounded-3xl bg-primary text-white duration-300 ease-linear flex justify-center w-[25vh] lg:text-[15px]"
+            className="px-6 items-center h-11 rounded-3xl bg-primary text-white duration-300 ease-linear flex justify-center w-[25vh] lg:text-sm"
           >
             Apply Now
           </Link>
