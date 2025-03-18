@@ -6,7 +6,7 @@ import Svg from "./Svg";
 
 const Hero = () => {
   return (
-    <section className="py-4 lg:py-14">
+    <section className="py-4 lg:py-24">
       <div className="mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 grid lg:grid-cols-2 lg:items-center gap-10">
         <div className="flex flex-col space-y-6 sm:space-y-8 lg:text-left max-w-2xl md:max-w-3xl mx-auto">
           <Badge variant="default" className="bg-black h-8 rounded-full px-8">
