@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Statistics = () => {
   return (
-    <section className="mt-14 w-full lg:mt-0 py-4 lg:py-24">
+    <section className="mt-14 w-full lg:mt-0 py-4 px-4 lg:py-24">
       <div className="mx-auto lg:max-w-6xl sm:px-10 md:px-12 grid lg:grid-cols-2 lg:items-center gap-10 ">
         <div className="flex aspect-square lg:aspect-auto lg:h-[36rem] relative">
           <div className="relative w-4/5 h-[68%] rounded-sm overflow-clip left-6 sm:left-20">
