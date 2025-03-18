@@ -46,7 +46,7 @@ const OurTeam = () => {
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-primary pb-6 lg:pb-12 max-w-sm text-center">
           Learn More About Your Trainer
         </h1>
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 justify-items-center">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-10 justify-items-center">
           {trainers.map((trainer, index) => (
             <div
               key={index}
