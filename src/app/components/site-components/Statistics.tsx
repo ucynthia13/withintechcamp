@@ -16,7 +16,7 @@ const Statistics = () => {
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="absolute left-0 bottom-12 sm:bottom-2 h-[calc(100%-220px)] w-3/5 rounded-sm overflow-clip ">
+          <div className="absolute left-0 bottom-16 sm:bottom-2 h-[calc(100%-220px)] w-3/5 rounded-sm overflow-clip ">
             <Image
               src="/images/ceo.jpg"
               alt="Students Working on a"

@@ -11,7 +11,7 @@ const Footer = () => {
             <Instagram className="w-4 h-4 md:w-6 md:h-6 lg:w-8 lg:h-8 text-white" />
             <Linkedin className="w-4 h-4 md:w-6 md:h-6 lg:w-8 lg:h-8 text-white" />
           </div>
-          <p className="text-sm md:text-base">
+          <p className="text-xs sm:text-sm md:text-base">
             Get into tech summer camp is sponsored by @ Withintech Rwanda
           </p>
         </div>
