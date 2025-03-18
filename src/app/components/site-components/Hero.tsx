@@ -2,7 +2,6 @@ import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import Svg from "./Svg";
 
 const Hero = () => {
   return (
@@ -28,38 +27,35 @@ const Hero = () => {
           </Link>
         </div>
         <div className="relative flex justify-center items-center p-6">
-      <div className="relative w-80 md:w-96 lg:w-[400px] h-[60vh] lg:h-[65vh]">
-        <Image
-          src="/images/heromain.jpg" 
-          alt="Main Image"
-          width={400}
-          height={400}
-          className="rounded-sm w-full h-full shadow-lg object-cover"
-        />
-      </div>
+          <div className="relative w-80 md:w-96 lg:w-[400px] h-[60vh] lg:h-[65vh]">
+            <Image
+              src="/images/heromain.jpg"
+              alt="Main Image"
+              width={400}
+              height={400}
+              className="rounded-sm w-full h-full shadow-lg object-cover"
+            />
+          </div>
 
-      <div className="absolute top-2 left-8 lg:-left-12 w-24 h-24 md:w-26 md:h-26 border-4 border-white rounded-full shadow-md overflow-hidden">
-        <Image
-          src="/images/heromain.jpg" 
-          alt="Top Left Image"
-          width={80}
-          height={80}
-          className="object-cover w-full h-full"
-        />
-      </div>
+          <div className="absolute top-2 left-8 lg:-left-12 w-24 h-24 md:w-26 md:h-26 border-4 border-white rounded-full shadow-md overflow-hidden">
+            <Image
+              src="/images/heromain.jpg"
+              alt="Top Left Image"
+              width={80}
+              height={80}
+              className="object-cover w-full h-full"
+            />
+          </div>
 
-      <div className="absolute bottom-2 right-8 lg:-right-8 w-14 h-14 md:w-22 md:h-22 border-4 border-white rounded-full shadow-md overflow-hidden">
-        <Image
-          src="/images/hero.jpg" 
-          alt="Bottom Right Image"
-          width={80}
-          height={80}
-          className="object-cover w-full h-full"
-        />
-      </div>
-    </div>
-        <div className="absolute top-0 right-0 z-0 opacity-40">
-         <Svg />
+          <div className="absolute bottom-2 right-8 lg:-right-8 w-14 h-14 md:w-22 md:h-22 border-4 border-white rounded-full shadow-md overflow-hidden">
+            <Image
+              src="/images/hero.jpg"
+              alt="Bottom Right Image"
+              width={80}
+              height={80}
+              className="object-cover w-full h-full"
+            />
+          </div>
         </div>
       </div>
     </section>
