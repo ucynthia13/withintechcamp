@@ -8,21 +8,21 @@ const Hero = () => {
   return (
     <section className="py-4 lg:py-14">
       <div className="mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 grid lg:grid-cols-2 lg:items-center gap-10">
-        <div className="flex flex-col space-y-8 sm:space-y-10 lg:text-left max-w-2xl md:max-w-3xl mx-auto">
-          <Badge variant="default" className="bg-black h-9 rounded-full px-8">
+        <div className="flex flex-col space-y-6 sm:space-y-8 lg:text-left max-w-2xl md:max-w-3xl mx-auto">
+          <Badge variant="default" className="bg-black h-8 rounded-full px-8">
             # Cohort 2
           </Badge>
           <h1 className="text-4xl lg:text-7xl font-bold text-primary">
             Get Into Tech Summer Camp Cohort 2
           </h1>
-          <p className=" flex text-black text-[16px] md:font-normal max-w-lg">
+          <p className="flex text-black text-[15px] md:font-normal max-w-md">
             GetIntoTech Summer Camp empowers young learners with coding,
             robotics, and digital skills through hands-on workshops, mentorship,
             and innovation challenges.
           </p>
           <Link
             href="#"
-            className="px-6 items-center h-12 rounded-3xl bg-primary text-white duration-300 ease-linear flex justify-center w-1/3"
+            className="px-6 items-center h-12 rounded-3xl bg-primary text-white duration-300 ease-linear flex justify-center w-1/3 text-[15px]"
           >
             Apply Now
           </Link>
@@ -34,11 +34,11 @@ const Hero = () => {
           alt="Main Image"
           width={400}
           height={400}
-          className="rounded-xl w-full h-full shadow-lg object-cover"
+          className="rounded-sm w-full h-full shadow-lg object-cover"
         />
       </div>
 
-      <div className="absolute top-2 left-2 w-16 h-16 md:w-20 md:h-20 border-4 border-white rounded-full shadow-md overflow-hidden">
+      <div className="absolute top-2 -left-4 w-16 h-16 md:w-27 md:h-27 border-4 border-white rounded-full shadow-md overflow-hidden">
         <Image
           src="/images/heromain.jpg" 
           alt="Top Left Image"
@@ -48,7 +48,7 @@ const Hero = () => {
         />
       </div>
 
-      <div className="absolute bottom-2 right-2 w-16 h-16 md:w-20 md:h-20 border-4 border-white rounded-full shadow-md overflow-hidden">
+      <div className="absolute bottom-2 -right-4 w-16 h-16 md:w-27 md:h-27 border-4 border-white rounded-full shadow-md overflow-hidden">
         <Image
           src="/images/hero.jpg" 
           alt="Bottom Right Image"

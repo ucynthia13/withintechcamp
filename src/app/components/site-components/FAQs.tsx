@@ -8,9 +8,9 @@ import {
 
 const FAQs = () => {
   return (
-    <section className="py-4 lg:py-16 w-full bg-primary/5">
+    <section className="py-4 lg:py-24 w-full bg-primary/5">
       <div className="mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 grid lg:grid-cols-2 lg:items-center gap-10 ">
-        <h1 className="text-xl lg:text-3xl text-primary font-bold">
+        <h1 className="text-xl lg:text-3xl text-primary font-bold max-w-sm">
           Frequently Asked Questions
         </h1>
         <Accordion type="single" collapsible className="w-full">

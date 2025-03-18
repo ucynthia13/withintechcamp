@@ -3,7 +3,7 @@ import { Clock, MapPin, Users } from 'lucide-react'
 
 const About = () => {
   return (
-    <section className=" py-16 px-4 w-full bg-primary/5">
+    <section className="py-4 lg:py-24 px-4 w-full bg-primary/5">
       <div className="mx-auto flex flex-col items-center gap-10">
         <h1 className="text-xl md:text-2xl lg:text-4xl font-bold text-black text-center max-w-lg">
           About Get Into Tech Summer Camp
