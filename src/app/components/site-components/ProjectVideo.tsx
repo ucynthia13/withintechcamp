@@ -8,7 +8,7 @@ const ProjectVideo = () => {
   const videoId = "dQw4w9WgXcQ";
 
   return (
-    <section className="relative w-full h-[70vh] border">
+    <section className="mt-14 lg:mt-0 relative w-full h-[70vh] border">
       <div className="absolute inset-0 w-full h-full">
         {!isPlaying && (
           <div

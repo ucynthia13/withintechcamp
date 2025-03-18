@@ -6,13 +6,13 @@ import Svg from "./Svg";
 
 const Hero = () => {
   return (
-    <section className="py-4 lg:py-24">
-      <div className="mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 grid lg:grid-cols-2 lg:items-center gap-10">
+    <section className="mt-14 lg:mt-0 py-4 lg:py-24 w-full">
+      <div className="mx-auto lg:max-w-6xl px-5 sm:px-10 md:px-12 lg:px-5 grid lg:grid-cols-2 lg:items-center gap-10">
         <div className="flex flex-col space-y-6 sm:space-y-8 lg:text-left max-w-2xl md:max-w-3xl mx-auto">
           <Badge variant="default" className="bg-black h-8 rounded-full px-8">
             # Cohort 2
           </Badge>
-          <h1 className="text-4xl lg:text-7xl font-bold text-primary">
+          <h1 className="text-2xl lg:text-6xl font-bold text-primary max-w-xs md:max-w-lg">
             Get Into Tech Summer Camp Cohort 2
           </h1>
           <p className="flex text-black text-[15px] md:font-normal max-w-md">
@@ -22,13 +22,13 @@ const Hero = () => {
           </p>
           <Link
             href="#"
-            className="px-6 items-center h-12 rounded-3xl bg-primary text-white duration-300 ease-linear flex justify-center w-1/3 text-[15px]"
+            className="px-6 items-center h-12 rounded-3xl bg-primary text-white duration-300 ease-linear flex justify-center w-[20vh] lg:text-[15px]"
           >
             Apply Now
           </Link>
         </div>
         <div className="relative flex justify-center items-center p-6">
-      <div className="relative w-80 md:w-96 lg:w-[400px] h-[62vh]">
+      <div className="relative w-80 md:w-96 lg:w-[400px] h-[60vh] lg:h-[65vh]">
         <Image
           src="/images/heromain.jpg" 
           alt="Main Image"
@@ -38,7 +38,7 @@ const Hero = () => {
         />
       </div>
 
-      <div className="absolute top-2 -left-4 w-16 h-16 md:w-27 md:h-27 border-4 border-white rounded-full shadow-md overflow-hidden">
+      <div className="absolute top-2 left-8 lg:-left-8 w-24 h-24 md:w-27 md:h-27 border-4 border-white rounded-full shadow-md overflow-hidden">
         <Image
           src="/images/heromain.jpg" 
           alt="Top Left Image"
@@ -48,7 +48,7 @@ const Hero = () => {
         />
       </div>
 
-      <div className="absolute bottom-2 -right-4 w-16 h-16 md:w-27 md:h-27 border-4 border-white rounded-full shadow-md overflow-hidden">
+      <div className="absolute bottom-2 right-8 lg:-right-5 w-16 h-16 md:w-24 md:h-24 border-4 border-white rounded-full shadow-md overflow-hidden">
         <Image
           src="/images/hero.jpg" 
           alt="Bottom Right Image"

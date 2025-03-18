@@ -9,7 +9,7 @@ import ProjectVideo from './components/site-components/ProjectVideo';
 import Footer from './components/site-components/Footer';
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center">
+    <main className="flex flex-col items-center justify-center ">
       <Navbar />
       <Hero />
       <About />
