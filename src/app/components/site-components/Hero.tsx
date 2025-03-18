@@ -12,7 +12,7 @@ const Hero = () => {
           <Badge variant="default" className="bg-black h-8 rounded-full px-8">
             # Cohort 2
           </Badge>
-          <h1 className="text-3xl lg:text-5xl font-bold text-primary max-w-xs md:max-w-lg">
+          <h1 className="text-3xl lg:text-6xl font-bold text-primary max-w-xs md:max-w-xl">
             Get Into Tech Summer Camp Cohort 2
           </h1>
           <p className="flex text-black text-[15px] md:font-normal max-w-md">

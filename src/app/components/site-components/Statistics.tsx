@@ -7,7 +7,7 @@ const Statistics = () => {
     <section className="mt-14 w-full lg:mt-0 py-4 px-4 lg:py-24">
       <div className="mx-auto lg:max-w-6xl sm:px-10 md:px-12 grid lg:grid-cols-2 lg:items-center gap-10 ">
         <div className="flex aspect-square lg:aspect-auto lg:h-[36rem] relative">
-          <div className="relative w-4/5 h-[68%] rounded-sm overflow-clip left-8 sm:left-20">
+          <div className="relative w-4/5 h-[68%] rounded-sm overflow-clip left-6 sm:left-20">
             <Image
               src="/images/grad.jpg"
               alt="Students working on a project"
@@ -16,7 +16,7 @@ const Statistics = () => {
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="absolute left-0 bottom-2 h-[calc(100%-220px)] w-3/5 rounded-sm overflow-clip ">
+          <div className="absolute left-0 bottom-12 sm:bottom-2 h-[calc(100%-220px)] w-3/5 rounded-sm overflow-clip ">
             <Image
               src="/images/ceo.jpg"
               alt="Students Working on a"
@@ -25,7 +25,7 @@ const Statistics = () => {
               className="z-10 w-full h-full object-cover"
             />
           </div>
-          <div className="absolute right-1 sm:-right-4 -top-8 bg-black text-white p-6 rounded-sm text-sm shadow-md">
+          <div className="absolute right-8 sm:-right-4 -top-8 bg-black text-white p-6 rounded-sm text-sm shadow-md">
             <span className="text-primary font-semibold">35+ </span> Trained
             students
           </div>
