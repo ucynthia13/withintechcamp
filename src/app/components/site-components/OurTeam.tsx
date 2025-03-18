@@ -46,11 +46,11 @@ const OurTeam = () => {
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-primary pb-6 lg:pb-12 max-w-sm text-center">
           Learn More About Your Trainer
         </h1>
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-10 justify-items-center">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 sm:gap-10 justify-items-center">
           {trainers.map((trainer, index) => (
             <div
               key={index}
-              className="relative w-42 sm:w-56 aspect-[3/4] bg-cover bg-center rounded-sm shadow-md flex items-end hover:shadow-md cursor-pointer"
+              className="relative w-42 md:w-52 lg:w-56 aspect-[3/4] bg-cover bg-center rounded-sm shadow-md flex items-end hover:shadow-md cursor-pointer"
               style={{ backgroundImage: `url('${trainer.image}')` }}
             >
               <div className="relative bg-white/90 p-3 rounded-sm text-center mx-auto w-11/12 shadow-lg mb-5">
