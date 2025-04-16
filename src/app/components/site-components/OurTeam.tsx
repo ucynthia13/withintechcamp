@@ -17,7 +17,7 @@ const trainers = [
     name: "Iris Ngabo",
     email: "iris@withintech.org",
     title: "Mentor, Software Engineer",
-    image: "/images/heromain.jpg",
+    image: "/images/iris.webp",
   },
   {
     name: "Igor Bisizi",
