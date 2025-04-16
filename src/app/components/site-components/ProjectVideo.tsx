@@ -29,7 +29,7 @@ const ProjectVideo = () => {
         ) : (
           <div
             className="absolute inset-0 bg-cover bg-center"
-            style={{ backgroundImage: "url('https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg')" }}
+            style={{ backgroundImage: "url('https://img.youtube.com/vi/VxG9qMxZQb8/maxresdefault.jpg')" }}
           ></div>
         )}
       </div>
