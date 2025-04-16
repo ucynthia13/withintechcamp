@@ -11,7 +11,7 @@ const trainers = [
     name: "Pacifique Murangwa",
     email: "pacifique@withintech.org",
     title: "Mentor, Software Engineer",
-    image: "/images/pacifique.jpg",
+    image: "/images/mupac.webp",
   },
   {
     name: "Iris Ngabo",
@@ -23,7 +23,7 @@ const trainers = [
     name: "Igor Bisizi",
     email: "igor@withintech.org",
     title: "Mentor, Software Engineer",
-    image: "/images/igor.jpg",
+    image: "/images/igor.webp",
   },
   {
     name: "Cynthia Umwali",
@@ -35,7 +35,13 @@ const trainers = [
     name: "Ndizihiwe Regis",
     email: "regis@withintech.org",
     title: "Mentor, Software Engineer",
-    image: "/images/regis.jpg",
+    image: "/images/regis.webp",
+  },
+  {
+    name: "Ingabire Divine",
+    email: "divine@withintech.org",
+    title: "Mentor, Software Engineer",
+    image: "/images/divine.webp",
   },
 ];
 
