@@ -17,43 +17,56 @@ const FAQs = () => {
           <AccordionItem value="item-1">
             <AccordionTrigger>Who is this camp designed for?</AccordionTrigger>
             <AccordionContent>
-            The GetIntoTech Summer Camp is designed for secondary school students (S1–S6) who are eager to explore technology, coding, and innovation.
+              The GetIntoTech Summer Camp is for secondary school students (S1–S6) in Rwanda who are curious about technology, programming, robotics, and digital innovation.
             </AccordionContent>
           </AccordionItem>
 
           <AccordionItem value="item-2">
             <AccordionTrigger>What will I learn from this camp?</AccordionTrigger>
             <AccordionContent>
-              Yes. It comes with default styles that matches the other
-              components&apos; aesthetic.
+              You’ll learn the basics of computer programming, robotics, problem-solving, teamwork, and how technology is used in real-world applications. We also offer hands-on projects and mini-hackathons.
             </AccordionContent>
           </AccordionItem>
+
           <AccordionItem value="item-3">
-            <AccordionTrigger>What is this camp about?</AccordionTrigger>
+            <AccordionTrigger>What is the goal of this camp?</AccordionTrigger>
             <AccordionContent>
-              Yes. Its animated by default, but you can disable it if you
-              prefer.
+              The camp aims to introduce young learners to the world of tech, build confidence in using digital tools, and prepare them for future careers in technology, science, and innovation.
             </AccordionContent>
           </AccordionItem>
+
           <AccordionItem value="item-4">
             <AccordionTrigger>When does the camp start and end?</AccordionTrigger>
             <AccordionContent>
-              Yes. Its animated by default, but you can disable it if you
-              prefer.
+              The camp runs from <strong>July 21st to August 4th, 2025</strong>. It is a 2-week full-time program, held Monday through Friday from 9AM to 2PM.
             </AccordionContent>
           </AccordionItem>
+
           <AccordionItem value="item-5">
-            <AccordionTrigger>Is There a deadline for Enrollment?</AccordionTrigger>
+            <AccordionTrigger>Is there a deadline for enrollment?</AccordionTrigger>
             <AccordionContent>
-              Yes. Its animated by default, but you can disable it if you
-              prefer.
+              Yes. The final date to apply is <strong>June 20, 2025</strong>. Spots are limited, so we encourage early applications.
             </AccordionContent>
           </AccordionItem>
+
           <AccordionItem value="item-6">
-            <AccordionTrigger>How much does the course cost?</AccordionTrigger>
+            <AccordionTrigger>How much does the camp cost?</AccordionTrigger>
             <AccordionContent>
-              Yes. Its animated by default, but you can disable it if you
-              prefer.
+              The camp is <strong>20,000 RWF</strong> for all accepted students.
+            </AccordionContent>
+          </AccordionItem>
+
+          <AccordionItem value="item-7">
+            <AccordionTrigger>Where will the camp be held?</AccordionTrigger>
+            <AccordionContent>
+              The camp will take place at Kimisagara Youth Center, Kigali. 
+            </AccordionContent>
+          </AccordionItem>
+
+          <AccordionItem value="item-8">
+            <AccordionTrigger>How are students selected?</AccordionTrigger>
+            <AccordionContent>
+              Selection is based on interest, motivation, and basic digital literacy. We aim for equal representation across gender and schools, and no prior coding experience is required.
             </AccordionContent>
           </AccordionItem>
         </Accordion>

@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -24,10 +24,10 @@ const Navbar = () => {
     >
       <Image src="/images/withintech.png" alt="logo" width={80} height={80} />
       <div className="flex gap-4 lg:gap-12 text-[15px]">
-        <a href="#" className="text-black">Home</a>
-        <a href="#" className="text-black">Donate</a>
+        <Link href="/" className="text-black">Home</Link>
+        <Link href="mailto:info@withintech.org" className="text-black" target="_blank">Donate</Link>
       </div>
-      <Button variant="default" className="h-11 rounded-full px-8">Apply</Button>
+      <Link className="h-11 rounded-full px-8" href="https://docs.google.com/forms/d/e/1FAIpQLSfyc4wFl4mANFM1cmAEgwy7Df_cXiPcYnUBTxaTyeTFwfF-mg/viewform?usp=header" target="_blank">Apply</Link>
     </nav>
   );
 };

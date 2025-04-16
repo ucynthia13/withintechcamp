@@ -5,7 +5,7 @@ import { Play } from "lucide-react";
 
 const ProjectVideo = () => {
   const [isPlaying, setIsPlaying] = useState(false);
-  const videoId = "dQw4w9WgXcQ";
+  const videoId = "VxG9qMxZQb8";
 
   return (
     <section className="mt-14 lg:mt-0 relative w-full h-[70vh] border">
